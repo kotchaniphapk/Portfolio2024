@@ -1,4 +1,4 @@
-/* eslint-disable @next/next/no-img-element */
+
 import React from "react";
 
 import { Card, Chip } from "@nextui-org/react";
@@ -40,7 +40,7 @@ function ChartbrewProject() {
           <div className="lg:order-2">
             <Image
               className="w-full filter drop-shadow-2xl rounded-xl border-2 border-gray"
-              src="/chartbrew-landing.png"
+              src="/chartbrew-landing.webp"
               width={1288}
               height={1288}
               alt=""
@@ -202,10 +202,12 @@ function ChartbrewProject() {
 
             <div className="grid grid-cols-1 px-12 mx-auto mt-12 lg:max-w-4xl xl:max-w-5xl sm:px-0 sm:grid-cols-3 gap-y-12 sm:gap-x-8 xl:gap-x-36">
               <div>
-                <img
-                  className="object-fill w-full h-60  rounded-xl"
-                  src="/ex-dashboard-2.png"
+                <Image
+                  className="object-fill w-full h-60 rounded-xl"
+                  src="/ex-dashboard-2.webp"
                   alt=""
+                  width={1200}
+                  height={1323}
                 />
                 <div className="flex justify-center">
                   <Link href="https://www.figma.com/proto/hsrx20JMYtPmDuaeciYexv/New_UXUI_Chartbrew?page-id=0%3A1&type=design&node-id=721-10625&viewport=-4117%2C-1242%2C0.43&t=dYb6se0YZWilHcZd-1&scaling=min-zoom&mode=design">
@@ -223,10 +225,12 @@ function ChartbrewProject() {
                 </div>
               </div>
               <div>
-                <img
+                <Image
                   className="object-cover w-full h-60 lg:h-80 rounded-xl"
-                  src="/ex-dashboard-1.png"
+                  src="/ex-dashboard-1.webp"
                   alt=""
+                  width={1200}
+                  height={1792}
                 />
                 <div className="flex justify-center">
                   <Link
@@ -249,10 +253,12 @@ function ChartbrewProject() {
               </div>
 
               <div>
-                <img
+                <Image
                   className="object-fill w-full h-60  rounded-xl"
-                  src="/ex-landing.png"
+                  src="/ex-landing.webp"
                   alt=""
+                  width={1081}
+                  height={1169}
                 />
                 <div className="flex justify-center">
                   <Link href="https://www.figma.com/proto/hsrx20JMYtPmDuaeciYexv/New_UXUI_Chartbrew?page-id=0%3A1&type=design&node-id=134-32718&viewport=551%2C-862%2C0.11&t=chMDiEZdUxyU7e4V-1&scaling=min-zoom&mode=design">

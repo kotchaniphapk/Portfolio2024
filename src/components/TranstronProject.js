@@ -30,9 +30,9 @@ function TranstronProject() {
             <div className="lg:order-2">
               <Image
                 className="w-full filter drop-shadow-2xl rounded-xl border-2 border-gray"
-                src="/transtronProject.png"
-                width={1288}
-                height={1288}
+                src="/transtronProject.webp"
+                width={1582}
+                height={1470}
                 alt=""
               />
             </div>

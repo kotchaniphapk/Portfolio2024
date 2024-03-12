@@ -26,8 +26,8 @@ function NotocatProject() {
         <div className="mt-20 grid items-center grid-cols-1 gap-y-8 sm:gap-y-12 lg:grid-cols-2 lg:gap-x-16 xl:gap-x-32">
           <div className="lg:order-2">
             <Image
-              className="w-full filter drop-shadow-2xl rounded-xl border-2 border-gray"
-              src="/notocat-landing.png"
+              className="w-full drop-shadow-2xl rounded-xl border-2 border-gray"
+              src="/notocat-landing.webp"
               width={1288}
               height={1288}
               alt=""
@@ -57,22 +57,6 @@ function NotocatProject() {
               </div>
             </div>
             <div className="grid max-w-xl grid-cols-1 mt-6 gap-y-3 sm:max-w-none sm:grid-cols-2 sm:gap-x-8 xl:mt-10 md:gap-x-16 lg:gap-x-8 xl:gap-x-16">
-              {/* <div>
-                <div className="w-24 h-px bg-gray-200"></div>
-                <Link href="#">
-                  <div className="flex gap-2 align-center">
-                    <div>
-                      <h3 className="text-lg font-bold text-gray-900 mt-5">
-                        Code
-                      </h3>
-                    </div>
-                    <div className="mt-5">
-                      <FaGithub size={20} />
-                    </div>
-
-                  </div>
-                </Link>
-              </div> */}
               <div className="">
                 <div className="w-24 h-px bg-gray-200"></div>
                 <Link href="https://notocat.com/" target="_blank" rel="noopener">
