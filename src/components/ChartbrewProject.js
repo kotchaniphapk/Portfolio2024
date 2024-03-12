@@ -118,7 +118,7 @@ function ChartbrewProject() {
           <div className="lg:order-1">
             <Image
               className="w-full filter drop-shadow-2xl "
-              src="/dashboard.png"
+              src="/dashboard.webp"
               width={1288}
               height={1288}
               alt=""

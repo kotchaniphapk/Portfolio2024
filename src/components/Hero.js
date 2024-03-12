@@ -123,7 +123,7 @@ function Hero() {
             <div className="xl:col-span-3 lg:ml-60 sm:flex sm:items-center sm:justify-center">
               <Image
                 className="align-center"
-                src="/profilePicture.svg"
+                src="/profilePicture.webp"
                 alt=""
                 width={400}
                 height={469}
