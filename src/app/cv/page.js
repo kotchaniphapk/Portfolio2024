@@ -46,7 +46,7 @@ function page() {
                 Kotchanipha Ilin
               </h1>
               <h2 className=" text-2xl font-semibold text-gray-700 leading-snug print:text-lg">
-                Fontend Web Development
+                Frontend Web Development
               </h2>
               <h3 className="py-2 text-xl font-semibold text-gray-500 leading-snug print:text-md">
                 Bangkok, Thailand
