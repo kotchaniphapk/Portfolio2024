@@ -131,12 +131,12 @@ function ChartbrewProject() {
                 {"Chartbrew Dashboard"}
               </h2>
               <p className="mt-6 text-lg font-normal leading-7 text-gray-600">
-                I worked on designing new themes for public dashboards in
+                {`I worked on designing new themes for public dashboards in
                 Chartbrew. This includes new colors and layouts with custom
-                headers and footers.
+                headers and footers.`}
               </p>
               <div className="mt-6">
-                <h3>Stack:</h3>
+                <h3>{"Stack:"}</h3>
                 <div className="mt-2 flex flex-row gap-x-6">
                   <div>
                     <ui className="list-disc">

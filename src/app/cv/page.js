@@ -29,13 +29,13 @@ function page() {
                 <ul className="pr-7 list-inside">
                   <li className="mt-1 leading-normal text-gray-500 transition duration-100 ease-in hover:text-primary text-md">
                     <a
-                      href="https://portfolio2024-omyhpelyc-kotchaniphapks-projects.vercel.app"
+                      href="https://portfolio2024-zeta-nine.vercel.app/"
                       className="group"
                     >
                       <span className="mr-2 text-lg font-semibold text-gray-700 leading-snugish">
                         Portfolio:
                       </span>
-                      https://portfolio2024-omyhpelyc-kotchaniphapks-projects.vercel.app
+                      https://portfolio2024-zeta-nine.vercel.app
                       <span className="inline-block font-normal text-black transition duration-100 ease-in group-hover:text-primary print:text-black ">
                         <LuArrowUpRight />
                       </span>
