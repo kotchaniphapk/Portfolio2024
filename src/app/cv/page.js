@@ -497,7 +497,7 @@ function page() {
                             <div className="flex gap-2">
                               <div>
                                 <h3 className="text-lg font-bold text-gray-900 mt-5 group-hover:text-primary">
-                                  Live Demo
+                                  Demo
                                 </h3>
                               </div>
                               <div className="mt-5">
