@@ -10,7 +10,7 @@ import {
 
 const MainNavbar = () => {
   return (
-    <Navbar maxWidth="full" isBordered>
+    <Navbar maxWidth="full" isBordered className="print:hidden">
       <NavbarBrand>
         <Link href="/">
           <p className="font-bold text-3xl">Portfolio</p>

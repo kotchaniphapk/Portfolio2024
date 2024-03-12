@@ -99,7 +99,7 @@ function ChartbrewProject() {
                   <div className="flex gap-2 items-center">
                     <div>
                       <h3 className="text-lg font-bold text-gray-900 mt-5 group-hover:text-primary">
-                        Live Demo
+                        Demo
                       </h3>
                     </div>
                     <div className="mt-5 group-hover:text-primary">
@@ -154,27 +154,27 @@ function ChartbrewProject() {
                 <div className="w-24 h-px bg-gray-200"></div>
                 <Link
                   href="https://github.com/kotchaniphapk/chartbrew/commits/New-Theme-Report?author=kotchaniphapk"
-                  className="hover:bg-primary-50"
+                  className="group"
                 >
                   <div className="flex gap-2 items-center">
                     <div>
-                      <h3 className="text-lg font-bold text-gray-900 mt-5">
+                      <h3 className="text-lg font-bold text-gray-900 mt-5 group-hover:text-primary">
                         Code
                       </h3>
                     </div>
                     <div className="mt-5">
-                      <FaGithub size={20} className="" />
+                      <FaGithub size={20} className="group-hover:text-primary" />
                     </div>
                   </div>
                 </Link>
               </div>
               <div className="">
                 <div className="w-24 h-px bg-gray-200"></div>
-                <Link href="https://chartbrew.com">
+                <Link href="https://chartbrew.com" className="group">
                   <div className="flex gap-2 items-center">
                     <div>
                       <h3 className="text-lg font-bold text-gray-900 mt-5 group-hover:text-primary">
-                        Live Demo
+                        Demo
                       </h3>
                     </div>
                     <div className="mt-5">
@@ -210,15 +210,17 @@ function ChartbrewProject() {
                   height={1323}
                 />
                 <div className="flex justify-center">
-                  <Link href="https://www.figma.com/proto/hsrx20JMYtPmDuaeciYexv/New_UXUI_Chartbrew?page-id=0%3A1&type=design&node-id=721-10625&viewport=-4117%2C-1242%2C0.43&t=dYb6se0YZWilHcZd-1&scaling=min-zoom&mode=design">
+                  <Link href="https://www.figma.com/proto/hsrx20JMYtPmDuaeciYexv/New_UXUI_Chartbrew?page-id=0%3A1&type=design&node-id=721-10625&viewport=-4117%2C-1242%2C0.43&t=dYb6se0YZWilHcZd-1&scaling=min-zoom&mode=design"
+                  className="group"
+                  >
                     <div className="flex gap-2 items-center">
                       <div>
-                        <h3 className="text-lg font-bold text-gray-900 mt-5">
+                        <h3 className="text-lg font-bold text-gray-900 mt-5 group-hover:text-primary">
                           Demo
                         </h3>
                       </div>
                       <div className="mt-5">
-                        <LuExternalLink size={20} />
+                        <LuExternalLink size={20} className="group-hover:text-primary"/>
                       </div>
                     </div>
                   </Link>
@@ -237,15 +239,16 @@ function ChartbrewProject() {
                     href="https://www.figma.com/proto/hsrx20JMYtPmDuaeciYexv/New_UXUI_Chartbrew?page-id=0%3A1&type=design&node-id=462-17627&viewport=-183%2C231%2C0.1&t=a6r7I7znZYATxbgl-1&scaling=min-zoom&mode=design"
                     target="_blank"
                     rel="noopener"
+                    className="group"
                   >
                     <div className="flex gap-2 items-center">
                       <div>
-                        <h3 className="text-lg font-bold text-gray-900 mt-5">
+                        <h3 className="text-lg font-bold text-gray-900 mt-5 group-hover:text-primary">
                           Demo
                         </h3>
                       </div>
                       <div className="mt-5">
-                        <LuExternalLink size={20} />
+                        <LuExternalLink size={20} className="group-hover:text-primary"/>
                       </div>
                     </div>
                   </Link>
@@ -262,14 +265,14 @@ function ChartbrewProject() {
                 />
                 <div className="flex justify-center">
                   <Link href="https://www.figma.com/proto/hsrx20JMYtPmDuaeciYexv/New_UXUI_Chartbrew?page-id=0%3A1&type=design&node-id=134-32718&viewport=551%2C-862%2C0.11&t=chMDiEZdUxyU7e4V-1&scaling=min-zoom&mode=design">
-                    <div className="flex gap-2">
+                    <div className="flex gap-2 group">
                       <div>
-                        <h3 className="text-lg font-bold text-gray-900 mt-5">
+                        <h3 className="text-lg font-bold text-gray-900 mt-5 group-hover:text-primary">
                           Demo
                         </h3>
                       </div>
                       <div className="mt-5">
-                        <LuExternalLink size={20} />
+                        <LuExternalLink size={20} className="group-hover:text-primary"/>
                       </div>
                     </div>
                   </Link>

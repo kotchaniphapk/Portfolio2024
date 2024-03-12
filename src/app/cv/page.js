@@ -1,4 +1,4 @@
-import { Divider } from "@nextui-org/react";
+import { Divider, Button } from "@nextui-org/react";
 import React from "react";
 import { LuArrowUpRight, LuExternalLink } from "react-icons/lu";
 import Link from "next/link";
@@ -9,17 +9,46 @@ function page() {
   return (
     <>
       <MainNavbar />
-      <div className="mt-20 mx-auto max-w-5xl bg-white rounded-2xl border-4 border-primary px-10 py-10 print:border-0 page print:max-w-letter print:max-h-letter print:mx-0 print:my-o lg:h-letter md:max-w-letter">
+
+      <div className="mt-10 flex justify-evenly sm:justify-end max-w-5xl mx-auto print:hidden">
+        <Button
+          variant="flat"
+          color="primary"
+          as="a"
+          href="https://drive.google.com/drive/folders/14UhizSDYWNCeKRlJ5aWVkOOgkAVhTW0J?usp=sharing"
+          title=""
+          size="lg"
+          className="inline-flex items-center mt-4 text-lg font-semibold"
+          role="button"
+        >
+          <svg
+            className="w-5 h-5 mr-2"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2.5"
+              d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
+            ></path>
+          </svg>
+          Download CV
+        </Button>
+      </div>
+      <div className="mt-10 mx-auto max-w-5xl bg-white rounded-2xl border-4 border-primary sm:px-0 lg:px-10 lg:py-10 print:border-0 page print:max-w-letter print:max-h-letter print:mb-0 print:mt-0 lg:h-letter md:max-w-letter print:py-0 print:text-sm">
         <section className="py-5 sm:py-5 lg:py-5">
-          <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+          <div className="px-4 mx-auto max-w-7xl lg:px-8">
             <div className="block">
-              <h1 className="mb-0 text-5xl font-bold text-gray-700">
+              <h1 className="mb-0 text-5xl font-bold text-gray-700 print:text-lg">
                 Kotchanipha Ilin
               </h1>
-              <h2 className=" text-2xl font-semibold text-gray-700 leading-snug">
+              <h2 className=" text-2xl font-semibold text-gray-700 leading-snug print:text-lg">
                 Fontend Web Development
               </h2>
-              <h3 className="py-2 text-xl font-semibold text-gray-500 leading-snug">
+              <h3 className="py-2 text-xl font-semibold text-gray-500 leading-snug print:text-md">
                 Bangkok, Thailand
               </h3>
             </div>
@@ -87,7 +116,7 @@ function page() {
                 <p className="text-xl font-bold text-gray-900 sm:text-2xl">
                   Profile
                 </p>
-                <p className="mt-2 text-base font-normal sm:mt-4 sm:text-lg leading-relaxed">
+                <p className="mt-2 text-base font-normal sm:mt-4 sm:text-lg leading-relaxed print:text-sm">
                   {`I have a degree in Instrumentation and Automation Engineering,
                   which helped me develop strong problem-solving skills. In
                   2022, I discovered my love for creating and designing
@@ -195,7 +224,7 @@ function page() {
                         2023|Certificate
                       </p>
                     </div>
-                    <div className="mt-2 flex flex-row gap-x-6">
+                    <div className="mt-2 flex flex-col justify-between gap-x-6">
                       <p className="font-semibold text-md">{"Figma"}: </p>
                       <ul className="mt-2 list-disc list-inside text-gray-800 text-md">
                         <li>Figma tool</li>
@@ -301,15 +330,18 @@ function page() {
                       <div className="grid max-w-xl grid-cols-1 mt-4 gap-y-3 sm:max-w-none sm:grid-cols-2 sm:gap-x-8 xl:mt-10 md:gap-x-16 lg:gap-x-8 xl:gap-x-16">
                         <div className="">
                           <div className="w-24 h-px bg-gray-200"></div>
-                          <Link href="/#chartbrew-project">
+                          <Link href="/#chartbrew-project" className="group">
                             <div className="flex gap-2">
                               <div>
-                                <h3 className="text-lg font-bold text-gray-900 mt-5">
-                                  Live Demo
+                                <h3 className="text-lg font-bold text-gray-900 mt-5 group-hover:text-primary">
+                                  Demo
                                 </h3>
                               </div>
                               <div className="mt-5">
-                                <LuExternalLink size={20} />
+                                <LuExternalLink
+                                  size={20}
+                                  className="group-hover:text-primary"
+                                />
                               </div>
                             </div>
                           </Link>
@@ -384,15 +416,21 @@ function page() {
                       <div className="grid max-w-xl grid-cols-1 mt-4 gap-y-3 sm:max-w-none sm:grid-cols-2 sm:gap-x-8 xl:mt-10 md:gap-x-16 lg:gap-x-8 xl:gap-x-16">
                         <div className="">
                           <div className="w-24 h-px bg-gray-200"></div>
-                          <Link href="https://www.transtron.com/en/products/dts-d1d.html">
+                          <Link
+                            href="https://www.transtron.com/en/products/dts-d1d.html"
+                            className="group"
+                          >
                             <div className="flex gap-2">
                               <div>
-                                <h3 className="text-lg font-bold text-gray-900 mt-5">
+                                <h3 className="text-lg font-bold text-gray-900 mt-5 group-hover:text-primary">
                                   Demo
                                 </h3>
                               </div>
                               <div className="mt-5">
-                                <LuExternalLink size={20} />
+                                <LuExternalLink
+                                  size={20}
+                                  className="group-hover:text-primary"
+                                />
                               </div>
                             </div>
                           </Link>
@@ -452,15 +490,21 @@ function page() {
                       <div className="grid max-w-xl grid-cols-1 mt-4 gap-y-3 sm:max-w-none sm:grid-cols-2 sm:gap-x-8 xl:mt-10 md:gap-x-16 lg:gap-x-8 xl:gap-x-16">
                         <div className="">
                           <div className="w-24 h-px bg-gray-200"></div>
-                          <Link href="https://www.linkedin.com/posts/activity-6897343683897671680-fQAE?utm_source=share&utm_medium=member_desktop">
+                          <Link
+                            href="https://www.linkedin.com/posts/activity-6897343683897671680-fQAE?utm_source=share&utm_medium=member_desktop"
+                            className="group"
+                          >
                             <div className="flex gap-2">
                               <div>
-                                <h3 className="text-lg font-bold text-gray-900 mt-5">
+                                <h3 className="text-lg font-bold text-gray-900 mt-5 group-hover:text-primary">
                                   Live Demo
                                 </h3>
                               </div>
                               <div className="mt-5">
-                                <LuExternalLink size={20} />
+                                <LuExternalLink
+                                  size={20}
+                                  className="group-hover:text-primary"
+                                />
                               </div>
                             </div>
                           </Link>

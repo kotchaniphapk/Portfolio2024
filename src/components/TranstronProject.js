@@ -91,36 +91,21 @@ function TranstronProject() {
                 </div>
               </div>
               <div className="grid max-w-xl grid-cols-1 mt-6 gap-y-3 sm:max-w-none sm:grid-cols-2 sm:gap-x-8 xl:mt-10 md:gap-x-16 lg:gap-x-8 xl:gap-x-16">
-                {/* <div>
-                <div className="w-24 h-px bg-gray-200"></div>
-                <Link href="#">
-                  <div className="flex gap-2 align-center">
-                    <div>
-                      <h3 className="text-lg font-bold text-gray-900 mt-5">
-                        Code
-                      </h3>
-                    </div>
-                    <div className="mt-5">
-                      <FaGithub size={20} />
-                    </div>
-
-                  </div>
-                </Link>
-              </div> */}
                 <div className="">
                   <div className="w-24 h-px bg-gray-200"></div>
                   <Link
                     href="https://www.transtron.com/en/products/dts-d1d.html"
                     id="transtron-project"
+                    className="group"
                   >
                     <div className="flex gap-2 items-center">
                       <div>
-                        <h3 className="text-lg font-bold text-gray-900 mt-5">
+                        <h3 className="text-lg font-bold text-gray-900 mt-5 group-hover:text-primary">
                           Live Demo
                         </h3>
                       </div>
                       <div className="mt-5">
-                        <LuExternalLink size={20} />
+                        <LuExternalLink size={20} className="group-hover:text-primary"/>
                       </div>
                     </div>
                   </Link>

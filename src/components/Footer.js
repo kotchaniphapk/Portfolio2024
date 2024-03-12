@@ -6,11 +6,11 @@ import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 export default function Footer() {
   return (
     <div>
-      <footer className="py-12 bg-primary sm:pt-16 lg:pt-20">
+      <footer className="py-12 bg-primary sm:pt-16 lg:pt-20 print:hidden">
         <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
           <div className="flex flex-col items-center space-y-10 lg:justify-between lg:space-y-0 lg:flex-row">
             <div className="shrink-0">
-              <Link href="#" title="" className="flex">
+              <Link href="/" title="" className="flex">
                 <p className="font-bold text-3xl text-white">Portfolio</p>
               </Link>
             </div>
