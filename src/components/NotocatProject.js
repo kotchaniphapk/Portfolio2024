@@ -2,7 +2,6 @@ import React from "react";
 
 import { Card } from "@nextui-org/react";
 import Link from "next/link";
-import { FaGithub} from "react-icons/fa";
 import { LuExternalLink} from "react-icons/lu";
 
 import Image from "next/image";

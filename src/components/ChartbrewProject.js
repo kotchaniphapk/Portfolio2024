@@ -117,7 +117,7 @@ function ChartbrewProject() {
         <div className="mt-10 grid items-center grid-cols-1 gap-y-8 sm:gap-y-12 lg:grid-cols-2 lg:gap-x-16 xl:gap-x-32">
           <div className="lg:order-1">
             <Image
-              className="w-full filter drop-shadow-2xl "
+              className="w-full drop-shadow-2xl "
               src="/dashboard.webp"
               width={1288}
               height={1288}
@@ -195,7 +195,7 @@ function ChartbrewProject() {
               <h2 className="text-3xl font-semibold text-gray-900 sm:text-4xl xl:text-4xl">
                 {"UI/UX Design"}
               </h2>
-              <p className="mt-5 text-lg font-normal text-gray-600 font-pj">
+              <p className="mt-5 text-lg font-normal text-gray-600">
                 User journeys to improve the UI/UX of the site
               </p>
             </div>
