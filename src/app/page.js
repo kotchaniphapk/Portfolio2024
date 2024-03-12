@@ -1,18 +1,16 @@
-import Image from "next/image";
-import { Button } from "@nextui-org/react";
+import React from "react";
 import MainNavbar from "@/components/MainNavbar";
 import Hero from "@/components/Hero";
-import AboutMe from "@/components/AboutMe";
 import Project from "@/components/Project";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
     <div>
       <MainNavbar />
       <Hero />
-      <AboutMe />
       <Project />
-    
+      <Footer />
     </div>
   );
 }

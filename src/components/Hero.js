@@ -1,59 +1,56 @@
-/* eslint-disable @next/next/no-img-element */
-/* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import { Button } from "@nextui-org/react";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 import Link from "next/link";
 
 import Image from "next/image";
 
 function Hero() {
-  const list =[
+  const list = [
     {
-      img:"/js.svg"
+      img: "/js.svg",
     },
     {
-      img:"/reactjs.svg"
+      img: "/reactjs.svg",
     },
     {
-      img:"/css3.svg"
+      img: "/css3.svg",
     },
     {
-      img:"/html5.svg"
+      img: "/html5.svg",
     },
     {
-      img:"/tailwindcss.svg"
+      img: "/tailwindcss.svg",
     },
     {
-      img:"/nextjs.svg"
+      img: "/nextjs.svg",
     },
     {
-      img:"/vitejs.svg"
+      img: "/vitejs.svg",
     },
     {
-      img:"/vscode.svg"
+      img: "/vscode.svg",
     },
     {
-      img:"/figma.svg"
-    }
+      img: "/figma.svg",
+    },
   ];
 
   return (
-    <div className="relative">
+    <div className="flex justify-center">
       <section className="relative py-12 sm:py-16 lg:pt-20 lg:pb-20">
         <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
           <div className="grid grid-cols-1 gap-y-8 lg:items-center lg:grid-cols-2 sm:gap-y-20 xl:grid-cols-5">
             <div className="text-center xl:col-span-2 lg:text-left md:px-16 lg:px-0">
-              <div className="max-w-sm mx-auto sm:max-w-md md:max-w-full">
+              <div className="mx-auto sm:max-w-md md:max-w-full">
                 <h1 className="text-4xl font-bold leading-tight text-gray-900 sm:text-5xl sm:leading-tight lg:text-6xl lg:leading-tight">
                   Kotchanipha Ilin
                 </h1>
-                <p className="text-xl">
-                  {
-                    "I'm a junior frontend developer.A passionaate Front-end Developer"
-                  }
+                <p className="text-lg">
+                  {`I am a Front-End Web Developer with over one year experience. My expertise is in creating & designing websites and
+                    now I'm excited to use my new web development skills to work on more projects. I'm looking forward to joining a team where I can keep learning and growing.`}
                 </p>
-                <div className="mt-4">
+                <div className="mt-4 sm:justify-center">
                   <div className="flex gap-2 align-center">
                     <div>
                       <Link href="https://github.com/kotchaniphapk">
@@ -70,10 +67,13 @@ function Hero() {
               </div>
               <div className="mt-5 sm:flex sm:items-center sm:justify-center lg:justify-start sm:space-x-5 lg:mt-12">
                 <Button
-                  href="#"
+                  href="mailto:kotchaniphailin@gmail.com?subject=Contact from Portfolio"
+                  target="_blank"
+                  rel="noopener"
+                  as="a"
                   title=""
-                  size="lg"
-                  className="inline-flex items-center text-lg font-semibold text-white transition-all duration-200 bg-gray-900 border border-transparent rounded-xl justif-center"
+                  size="md"
+                  className="inline-flex items-center text-lg font-semibold text-white transition-all duration-200 bg-primary border border-transparent rounded-xl justif-center"
                   role="button"
                 >
                   Contact
@@ -81,7 +81,8 @@ function Hero() {
 
                 <Button
                   variant="light"
-                  href="#"
+                  as="a"
+                  href="https://drive.google.com/drive/folders/14UhizSDYWNCeKRlJ5aWVkOOgkAVhTW0J?usp=sharing"
                   title=""
                   size="lg"
                   className="inline-flex items-center mt-4 text-lg font-semibold transition-all duration-200 bg-transparent border border-transparent sm:mt-0  justif-center rounded-xl"
@@ -105,22 +106,27 @@ function Hero() {
                 </Button>
               </div>
               <div className="mt-5 flex gap-4">
-                <h2 className="font-semibold text-lg">
-                  Stack:
-                </h2>
+                <h2 className="font-semibold text-lg">Stack:</h2>
                 {list.map((item, index) => (
                   <div key={index} className="">
-                    <Image src={item.img} width={40} height={40} className="inline-flex"/>
+                    <Image
+                      alt=""
+                      src={item.img}
+                      width={40}
+                      height={40}
+                      className="inline-flex"
+                    />
                   </div>
                 ))}
               </div>
             </div>
-
-            <div className="xl:col-span-3">
-              <img
-                class="w-full mx-auto scale-90"
-                src="https://d33wubrfki0l68.cloudfront.net/29c501c64b21014b3f2e225abe02fe31fd8f3a5c/f866d/images/hero/3/illustration.png"
+            <div className="xl:col-span-3 ml-60">
+              <Image
+                className="align-center"
+                src="/profilePicture.svg"
                 alt=""
+                width={400}
+                height={469}
               />
             </div>
           </div>

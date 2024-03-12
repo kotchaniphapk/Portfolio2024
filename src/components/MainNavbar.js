@@ -10,37 +10,49 @@ import {
 
 const MainNavbar = () => {
   return (
-    <div>
-      <Navbar maxWidth="full">
-        <NavbarBrand>
+    <Navbar maxWidth="full" isBordered>
+      <NavbarBrand>
+        <Link href="/">
           <p className="font-bold text-3xl">Portfolio</p>
-        </NavbarBrand>
-        <NavbarContent className="hidden sm:flex space-x-6 sm:space-x-16 xl:space-x-16 " justify="center">
-          <NavbarItem>
-            <Link color="foreground" href="#">
-              Home
-            </Link>
-          </NavbarItem>
-          <NavbarItem isActive>
-            <Link href="#" aria-current="page">
-              About me
-            </Link>
-          </NavbarItem>
-          <NavbarItem>
-            <Link color="foreground" href="#">
-              Project
-            </Link>
-          </NavbarItem>
-        </NavbarContent>
-        <NavbarContent justify="end">
-          <NavbarItem>
-            <Button size="lg" as={Link} color="primary" href="/cv" variant="solid" className="font-semibold">
-              Contact
-            </Button>
-          </NavbarItem>
-        </NavbarContent>
-      </Navbar>
-    </div>
+        </Link>
+      </NavbarBrand>
+      <NavbarContent
+        className="hidden sm:flex space-x-6 sm:space-x-16 xl:space-x-16 "
+        justify="center"
+      >
+        <NavbarItem>
+          <Link color="foreground" href="/">
+            Home
+          </Link>
+        </NavbarItem>
+        <NavbarItem isActive>
+          <Link href="/cv" aria-current="page">
+            CV
+          </Link>
+        </NavbarItem>
+        <NavbarItem>
+          <Link color="foreground" href="/#myportfolio">
+            Projects
+          </Link>
+        </NavbarItem>
+      </NavbarContent>
+      <NavbarContent justify="end">
+        <NavbarItem>
+          <Button
+            size="lg"
+            as={Link}
+            color="primary"
+            variant="solid"
+            className="font-semibold"
+            href="mailto:kotchaniphailin@gmail.com?subject=Contact from Portfolio"
+            target="_blank"
+            rel="noopener"
+          >
+            Contact
+          </Button>
+        </NavbarItem>
+      </NavbarContent>
+    </Navbar>
   );
 };
 

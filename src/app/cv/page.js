@@ -3,12 +3,13 @@ import React from "react";
 import { LuArrowUpRight, LuExternalLink } from "react-icons/lu";
 import Link from "next/link";
 import MainNavbar from "@/components/MainNavbar";
+import Footer from "@/components/Footer";
 
 function page() {
   return (
-    <div>
+    <>
       <MainNavbar />
-      <div className="mt-20 mx-auto max-w-5xl bg-white rounded-2xl border-4 border-primary">
+      <div className="mt-20 mx-auto max-w-5xl bg-white rounded-2xl border-4 border-primary px-10 py-10">
         <section className="py-5 sm:py-5 lg:py-5">
           <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
             <div className="block">
@@ -27,11 +28,14 @@ function page() {
               <div className="">
                 <ul className="pr-7 list-inside">
                   <li className="mt-1 leading-normal text-gray-500 transition duration-100 ease-in hover:text-primary text-md">
-                    <a href="https://veilmail.io/e/J-td7W" className="group">
+                    <a
+                      href="https://portfolio2024-omyhpelyc-kotchaniphapks-projects.vercel.app"
+                      className="group"
+                    >
                       <span className="mr-2 text-lg font-semibold text-gray-700 leading-snugish">
                         Portfolio:
                       </span>
-                      https://
+                      https://portfolio2024-omyhpelyc-kotchaniphapks-projects.vercel.app
                       <span className="inline-block font-normal text-black transition duration-100 ease-in group-hover:text-primary print:text-black ">
                         <LuArrowUpRight />
                       </span>
@@ -83,7 +87,7 @@ function page() {
                 <p className="text-xl font-bold text-gray-900 sm:text-2xl">
                   Profile
                 </p>
-                <p className="mt-2 text-base font-normal text-gray-600 sm:mt-4 sm:text-lg leading-relaxed">
+                <p className="mt-2 text-base font-normal sm:mt-4 sm:text-lg leading-relaxed">
                   {`I have a degree in Instrumentation and Automation Engineering,
                   which helped me develop strong problem-solving skills. In
                   2022, I discovered my love for creating and designing
@@ -97,6 +101,7 @@ function page() {
                   growing.`}
                 </p>
               </div>
+              <Divider className="mt-2" />
               <div>
                 <p className="text-xl font-bold text-gray-900 sm:text-2xl">
                   Main Tech Skills
@@ -135,7 +140,7 @@ function page() {
                 <p className="text-xl font-bold text-gray-900 sm:text-2xl">
                   Languages
                 </p>
-                <p className=" text-gray-500 text-md">
+                <p className="mt-2 text-md">
                   Good level of written and spoken English, and Thai native
                   speaker.
                 </p>
@@ -144,10 +149,11 @@ function page() {
                 <p className="text-xl font-bold text-gray-900 sm:text-2xl">
                   Interests
                 </p>
-                <p className=" text-gray-500 text-md">
+                <p className="mt-2 text-md">
                   Technology, travel, coffee, and music.
                 </p>
               </div>
+              <Divider className="mt-2" />
               <div>
                 <div className="mt-2 mb-2 break-inside-avoid">
                   <h2 className="text-xl font-bold text-gray-900 sm:text-2xl">
@@ -229,6 +235,7 @@ function page() {
                   </div>
                 </div>
               </div>
+              <Divider className="mt-2 bg-primary py-0.5" />
               <div>
                 <p className="text-xl font-bold text-gray-900 sm:text-2xl">
                   Work Experience
@@ -467,7 +474,10 @@ function page() {
           </div>
         </section>
       </div>
-    </div>
+      <div className="mt-20">
+        <Footer />
+      </div>
+    </>
   );
 }
 

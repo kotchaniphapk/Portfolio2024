@@ -40,7 +40,7 @@ function TranstronProject() {
             <div className="flex flex-col justify-between lg:order-1">
               <div className="flex-1">
                 <h2 className="text-2xl font-semibold text-gray-900 sm:text-4xl leading-relaxed">
-                  {`"WebService V2"`}
+                  {`WebService V2`}
                 </h2>
                 <p className="mt-6 text-lg font-normal leading-7 text-gray-600">
                   {"Training:"}
