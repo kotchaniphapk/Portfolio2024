@@ -1,6 +1,6 @@
 import React from "react";
 import { Button } from "@nextui-org/react";
-import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import Link from "next/link";
 
 import Image from "next/image";
@@ -50,18 +50,18 @@ function Hero() {
                   {`I am a Front-End Web Developer with over one year experience. My expertise is in creating & designing websites and
                     now I'm excited to use my new web development skills to work on more projects. I'm looking forward to joining a team where I can keep learning and growing.`}
                 </p>
-                <div className="mt-4 sm:justify-center">
-                  <div className="flex gap-2 align-center">
-                    <div>
-                      <Link href="https://github.com/kotchaniphapk">
-                        <FaGithub size={24} />
-                      </Link>
-                    </div>
-                    <div>
-                      <Link href="https://www.linkedin.com/in/kotchanipha-ilin-176292200/">
-                        <FaLinkedin size={24} />
-                      </Link>
-                    </div>
+              </div>
+              <div className="mt-4 flex items-center justify-center sm:justify-start">
+                <div className="flex gap-2">
+                  <div>
+                    <Link href="https://github.com/kotchaniphapk">
+                      <FaGithub size={24} />
+                    </Link>
+                  </div>
+                  <div>
+                    <Link href="https://www.linkedin.com/in/kotchanipha-ilin-176292200/">
+                      <FaLinkedin size={24} />
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -120,7 +120,7 @@ function Hero() {
                 ))}
               </div>
             </div>
-            <div className="xl:col-span-3 ml-60">
+            <div className="xl:col-span-3 lg:ml-60 sm:flex sm:items-center sm:justify-center">
               <Image
                 className="align-center"
                 src="/profilePicture.svg"

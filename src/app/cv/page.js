@@ -9,7 +9,7 @@ function page() {
   return (
     <>
       <MainNavbar />
-      <div className="mt-20 mx-auto max-w-5xl bg-white rounded-2xl border-4 border-primary px-10 py-10">
+      <div className="mt-20 mx-auto max-w-5xl bg-white rounded-2xl border-4 border-primary px-10 py-10 ">
         <section className="py-5 sm:py-5 lg:py-5">
           <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
             <div className="block">
