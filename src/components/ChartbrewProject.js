@@ -154,7 +154,7 @@ function ChartbrewProject() {
                 <div className="w-24 h-px bg-gray-200"></div>
                 <Link
                   href="https://github.com/kotchaniphapk/chartbrew/commits/New-Theme-Report?author=kotchaniphapk"
-                  className="hover:bg-primary-50 group"
+                  className="hover:bg-primary-50"
                 >
                   <div className="flex gap-2 items-center">
                     <div>
@@ -170,7 +170,7 @@ function ChartbrewProject() {
               </div>
               <div className="">
                 <div className="w-24 h-px bg-gray-200"></div>
-                <Link href="https://www.chartbrew.com group">
+                <Link href="https://chartbrew.com">
                   <div className="flex gap-2 items-center">
                     <div>
                       <h3 className="text-lg font-bold text-gray-900 mt-5 group-hover:text-primary">
