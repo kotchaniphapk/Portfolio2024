@@ -1,5 +1,4 @@
 import React from "react";
-
 import Link from "next/link";
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 
@@ -23,7 +22,6 @@ export default function Footer() {
               >
                 Home
               </a>
-
               <a
                 href="/cv"
                 title=""

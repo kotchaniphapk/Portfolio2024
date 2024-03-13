@@ -1,11 +1,8 @@
-
 import React from "react";
-
 import { Card, Chip } from "@nextui-org/react";
 import Link from "next/link";
 import { FaGithub } from "react-icons/fa";
 import { LuExternalLink } from "react-icons/lu";
-
 import Image from "next/image";
 
 function ChartbrewProject() {
@@ -19,7 +16,7 @@ function ChartbrewProject() {
           My Portfolio
         </p>
       </div>
-      <Card className="px-4 mx-auto sm:px-6 lg:px-20 lg:py-20 max-w-6xl">
+      <Card className="px-4 mx-auto sm:px-6 lg:px-20 lg:py-20 max-w-6xl py-5 sm:py-5">
         <div className="text-center">
           <p className="text-md font-semibold text-primary">2023 Feb-Present</p>
           <h1

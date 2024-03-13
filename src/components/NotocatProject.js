@@ -1,15 +1,13 @@
 import React from "react";
-
 import { Card } from "@nextui-org/react";
 import Link from "next/link";
 import { LuExternalLink} from "react-icons/lu";
-
 import Image from "next/image";
 
 function NotocatProject() {
   return (
     <div>
-      <Card className="px-4 mx-auto sm:px-6 lg:px-20 lg:py-20 max-w-6xl">
+      <Card className="px-4 mx-auto sm:px-5 py-5 sm:py-5 lg:px-20 lg:py-20 max-w-6xl">
         <div className="text-center">
           <p className="text-md font-semibold text-primary">2023</p>
           <h1 className="mt-3 text-4xl font-bold text-gray-900 ">

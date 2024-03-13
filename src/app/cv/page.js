@@ -9,7 +9,6 @@ function page() {
   return (
     <>
       <MainNavbar />
-
       <div className="mt-10 flex justify-evenly sm:justify-end max-w-5xl mx-auto print:hidden">
         <Button
           variant="flat"
@@ -38,7 +37,7 @@ function page() {
           Download CV
         </Button>
       </div>
-      <div className="mt-10 mx-auto max-w-5xl bg-white rounded-2xl border-4 border-primary sm:px-0 lg:px-10 lg:py-10 print:border-0 page print:max-w-letter print:max-h-letter print:mb-0 print:mt-0 lg:h-letter md:max-w-letter print:py-0 print:text-sm">
+      <div className="mt-10 mx-auto max-w-5xl bg-white rounded-2xl border-4 border-primary sm:px-0 sm:py-5 lg:px-10 lg:py-10 print:border-0 page print:max-w-letter print:max-h-letter print:mb-0 print:mt-0 lg:h-letter md:max-w-letter print:py-0 print:text-sm">
         <section className="py-5 sm:py-5 lg:py-5">
           <div className="px-4 mx-auto max-w-7xl lg:px-8">
             <div className="block">
@@ -46,7 +45,7 @@ function page() {
                 Kotchanipha Ilin
               </h1>
               <h2 className=" text-2xl font-semibold text-gray-700 leading-snug print:text-lg">
-                Frontend Web Development
+                Frontend Web Developer
               </h2>
               <h3 className="py-2 text-xl font-semibold text-gray-500 leading-snug print:text-md">
                 Bangkok, Thailand
@@ -116,7 +115,7 @@ function page() {
                 <p className="text-xl font-bold text-gray-900 sm:text-2xl">
                   Profile
                 </p>
-                <p className="mt-2 text-base font-normal sm:mt-4 sm:text-lg leading-relaxed print:text-sm">
+                <p className="mt-2 text-base font-normal sm:mt-2 sm:text-lg leading-relaxed print:text-sm">
                   {`I have a degree in Instrumentation and Automation Engineering,
                   which helped me develop strong problem-solving skills. In
                   2022, I discovered my love for creating and designing
@@ -161,11 +160,12 @@ function page() {
                     <ui className="list-disc">
                       <li>Strapi</li>
                       <li>MySQL</li>
+                      <li>Git,Github,Svn</li>
                     </ui>
                   </div>
                 </div>
               </div>
-              <div className="mt-4">
+              <div className="mt-2">
                 <p className="text-xl font-bold text-gray-900 sm:text-2xl">
                   Languages
                 </p>
@@ -186,7 +186,7 @@ function page() {
               <div>
                 <div className="mt-2 mb-2 break-inside-avoid">
                   <h2 className="text-xl font-bold text-gray-900 sm:text-2xl">
-                    EDUCATION
+                    Education
                   </h2>
                   <div className="mt-2 break-inside-avoid">
                     <header>
@@ -209,7 +209,7 @@ function page() {
                         Certificate in Electrical Power
                       </li>
                       <li>
-                        <span className="font-semibold text-md">GPA: </span>
+                        <span className="font-semibold text-md">GPX: </span>
                         2.55
                       </li>
                     </ul>
@@ -217,7 +217,7 @@ function page() {
                   <div>
                     <Divider className="mt-2" />
                     <div>
-                      <h3 className="mt-5 flex-grow text-lg font-semibold text-gray-700 leading-snugish">
+                      <h3 className="mt-2 flex-grow text-lg font-semibold text-gray-700 leading-snugish">
                         Road to UX/UI Designer Workshop
                       </h3>
                       <p className="leading-normal text-gray-500 text-md">
@@ -234,7 +234,7 @@ function page() {
                         <li>Variant, Variables</li>
                         <li>Interactive Components</li>
                       </ul>
-                      <p className="font-semibold text-md">UI/UX: </p>
+                      <p className="mt-2 font-semibold text-md">UI/UX: </p>
                       <ul className="mt-2 list-disc list-inside text-gray-800 text-md">
                         <li>User journey</li>
                         <li>Information Architecture</li>
@@ -247,7 +247,7 @@ function page() {
                   <div>
                     <Divider className="mt-2" />
                     <div>
-                      <h3 className="mt-5 flex-grow text-lg font-semibold text-gray-700 leading-snugish">
+                      <h3 className="mt-2 flex-grow text-lg font-semibold text-gray-700 leading-snugish">
                         Vocational Certificate, Pattaya Technical Collage
                         Thailand
                       </h3>
@@ -257,7 +257,7 @@ function page() {
                     </div>
                     <ul className="mt-2 list-disc list-inside text-gray-800 text-md">
                       <li>
-                        <span className="font-semibold text-md">GPA: </span>
+                        <span className="font-semibold text-md">GPX:</span>
                         3.70
                       </li>
                     </ul>
@@ -306,7 +306,7 @@ function page() {
                           </div>
                         </div>
                         <div className="">
-                          <p className="mt-4 text-lg font-semibold leading-7 text-gray-600">
+                          <p className="mt-2 text-lg font-semibold leading-7 text-gray-600">
                             Stack:
                           </p>
                           <div className="mt-2 flex flex-row gap-x-6">
@@ -353,7 +353,7 @@ function page() {
                 <div>
                   <div className="mt-2">
                     <p className="font-semibold text-lg">
-                      2022 Aug-2023 Jan
+                      2022 July-2023 Jan
                       <span className="px-5 text-lg">
                         Junior software developer: transtron (thailand) co. ltd
                       </span>

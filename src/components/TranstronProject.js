@@ -1,19 +1,17 @@
 import React from "react";
-
 import { Card } from "@nextui-org/react";
 import Link from "next/link";
 import { LuExternalLink } from "react-icons/lu";
-
 import Image from "next/image";
 
 function TranstronProject() {
   return (
     <div>
       <div>
-        <Card className="px-4 mx-auto sm:px-6 lg:px-20 lg:py-20 max-w-6xl">
+        <Card className="px-4 mx-auto sm:px-6 py-5 sm:py-5 lg:px-20 lg:py-20 max-w-6xl">
           <div className="text-center">
             <p className="text-md font-semibold text-primary">
-              2022 Aug-2023 Jan
+              2022 July-2023 Jan
             </p>
             <h1 className="mt-3 text-4xl font-bold text-gray-900 ">
               Transtron Project
@@ -24,7 +22,6 @@ function TranstronProject() {
               </h2>
             </div>
           </div>
-
           <div className="mt-20 grid items-center grid-cols-1 gap-y-8 sm:gap-y-12 lg:grid-cols-2 lg:gap-x-16 xl:gap-x-32">
             <div className="lg:order-2">
               <Image
@@ -35,7 +32,6 @@ function TranstronProject() {
                 alt=""
               />
             </div>
-
             <div className="flex flex-col justify-between lg:order-1">
               <div className="flex-1">
                 <h2 className="text-2xl font-semibold text-gray-900 sm:text-4xl leading-relaxed">
@@ -105,7 +101,10 @@ function TranstronProject() {
                         </h3>
                       </div>
                       <div className="mt-5">
-                        <LuExternalLink size={20} className="group-hover:text-primary"/>
+                        <LuExternalLink
+                          size={20}
+                          className="group-hover:text-primary"
+                        />
                       </div>
                     </div>
                   </Link>
