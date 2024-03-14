@@ -92,7 +92,7 @@ function ChartbrewProject() {
               </div>
               <div className="">
                 <div className="w-24 h-px bg-gray-200"></div>
-                <Link href="https://www.chartbrew.com" className="group">
+                <Link href="https://chartbrew.com" className="group">
                   <div className="flex gap-2 items-center">
                     <div>
                       <h3 className="text-lg font-bold text-gray-900 mt-5 group-hover:text-primary">
