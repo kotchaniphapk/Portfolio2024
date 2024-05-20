@@ -8,14 +8,14 @@ import Image from "next/image";
 function ChartbrewProject() {
   return (
     <div className="mt-10">
-      <div className="py-20 text-center">
+      {/* <div className="py-20 text-center">
         <p
           className="text-3xl font-bold tracking-widest text-gray-900 uppercase"
           id="myportfolio"
         >
           My Portfolio
         </p>
-      </div>
+      </div> */}
       <Card className="px-4 mx-auto sm:px-6 lg:px-20 lg:py-20 max-w-6xl py-5 sm:py-5">
         <div className="text-center">
           <p className="text-md font-semibold text-primary">2023 Feb-Present</p>

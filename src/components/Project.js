@@ -3,10 +3,14 @@ import React from "react";
 import ChartbrewProject from "./ChartbrewProject";
 import NotocatProject from "./NotocatProject";
 import TranstronProject from "./TranstronProject";
+import ProjectPlay from "./ProjectPlay";
 
 function Project() {
   return (
     <div className="mt-20 pb-20  bg-slate-50">
+       <div className="mt-10">
+        <ProjectPlay />
+      </div>
       <div className="mt-10">
         <ChartbrewProject />
       </div>
